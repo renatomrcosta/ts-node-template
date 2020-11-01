@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "target": "es6",
+    "strict": true,
+    "outDir": "dist",
+    "lib": [
+      "es2017"
+    ],
+
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "incremental": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+
+  "exclude": [
+    "**/__jest__",
+    "**/__mocks__"
+  ]
+}
