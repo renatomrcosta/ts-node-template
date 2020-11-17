@@ -7,6 +7,7 @@ plugins:
   - jest
   - prettier
   - simple-import-sort
+  - sort-keys-fix
   - typescript-sort-keys
 
 extends:
@@ -87,6 +88,9 @@ rules:
       # Relative imports.
       # Anything that starts with a dot.
       - ["^\\."]
+
+# sort-keys-fix
+  sort-keys-fix/sort-keys-fix: error
 
 # Custom rules
   prefer-early-return: error
