@@ -7,12 +7,14 @@ plugins:
   - jest
   - prettier
   - simple-import-sort
+  - typescript-sort-keys
 
 extends:
   - airbnb-base
   - plugin:@typescript-eslint/recommended
   - plugin:jest/recommended
   - plugin:jest/style
+  - plugin:typescript-sort-keys/recommended
   - prettier
   - prettier/@typescript-eslint
 
