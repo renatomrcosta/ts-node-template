@@ -10,9 +10,8 @@
       "es2017"
     ],
 
-    "baseUrl": ".",
     "paths": {
-      "~/*": ["src/*"]
+      "~/*": ["./src/*"]
     },
     "incremental": true
   },
@@ -21,7 +20,7 @@
   ],
 
   "exclude": [
-    "**/__jest__",
+    "**/__tests__",
     "**/__mocks__"
   ]
 }
