@@ -33,7 +33,6 @@ module.exports = {
   // ],
   coveragePathIgnorePatterns: [
     "/node_modules/",
-    "/__jest__/util/",
     ".d.ts"
   ],
 
@@ -139,7 +138,7 @@ module.exports = {
 
   // The paths to modules that run some code to configure or set up the testing environment before each test
   // setupFiles: [],
-  setupFiles: ["<rootDir>/src/__jest__/setup.ts"],
+  setupFiles: ["<rootDir>/test/setup.ts"],
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
   // setupFilesAfterEnv: [],
