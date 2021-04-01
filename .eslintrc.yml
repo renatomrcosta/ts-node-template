@@ -17,7 +17,6 @@ extends:
   - plugin:jest/style
   - plugin:typescript-sort-keys/recommended
   - prettier
-  - prettier/@typescript-eslint
 
 
 env:
